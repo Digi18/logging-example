@@ -20,4 +20,4 @@ app.get('/',(req,res) => {
      log.debug({customObject: customObject}, 'Debug message with custom objects');
 });
 
-app.listen(2000, () => console.log("App is  listening"));
+app.listen(2000,"0.0.0.0" ,() => console.log("App is  listening"));
